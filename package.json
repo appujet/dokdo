@@ -2,7 +2,6 @@
   "name": "dokdo",
   "version": "1.1.0",
   "description": "Dokdo. Easy Discord bot debuging tool.",
-
   "scripts": {
     "build": "tsup",
     "dev": "yarn test:bot",
@@ -59,8 +58,8 @@
     "node": ">=22.12.0"
   },
   "packageManager": "yarn@3.2.4",
-  "peerDependencies": {
-    "discord.js": "^14.0.0",
-    "undici": "^7.8.0"
+  "dependencies": {
+    "discord.js": "latest",
+    "undici": "latest"
   }
 }
